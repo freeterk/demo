@@ -1,4 +1,8 @@
 <?php
+
+
+
+
 //导入page.class.php文件
 include 'Page.class.php';
 $pdo=new PDO("mysql:host=localhost;dbname=demo","root","");
@@ -47,7 +51,7 @@ ul li.next{
 document.write(new Date());
 </script>
 
-
+<h1>这里是增加的标题</h1>
 
 
 
